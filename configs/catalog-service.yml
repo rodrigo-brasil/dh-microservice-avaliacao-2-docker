@@ -1,0 +1,24 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /catalog/
+    
+queue:
+  movie:
+    name: movie-service 
+  serie:
+    name: serie-service 
+    
+spring:
+  data:
+    mongodb:
+     authentication-database: admin
+     username: admin
+     password: pass
+     database: avaliacao2
+     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

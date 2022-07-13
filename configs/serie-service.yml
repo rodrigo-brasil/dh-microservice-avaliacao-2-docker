@@ -1,0 +1,17 @@
+
+server:
+  port: 8002
+  servlet:
+    context-path: /series/
+    
+spring:
+  data:
+    mongodb:
+     authentication-database: admin
+     username: admin
+     password: pass
+     database: avaliacao2
+
+queue:
+  serie:
+    name: serie-service 

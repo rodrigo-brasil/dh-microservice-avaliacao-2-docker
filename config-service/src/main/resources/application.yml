@@ -1,0 +1,19 @@
+server:
+    port: 8888
+spring:
+  application:
+        name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rodrigo-brasil/dh-microservice-avaliacao-2
+          searchPaths: configs
+          skipSslValidation: true
+          default-label: master
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eurekaserver:8761/eureka/

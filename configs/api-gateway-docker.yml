@@ -1,0 +1,40 @@
+server:
+  port: 8080
+  
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: avaliacao_movie-service
+          uri: lb://MOVIE-SERVICE
+          predicates:
+            - Path=/movies/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: moviesService
+                fallbackUri: forward:/fallback/movies
+        - id: avaliacao_serie-service
+          uri: lb://SERIE-SERVICE
+          predicates:
+            - Path=/series/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: seriesService
+                fallbackUri: forward:/fallback/series
+        - id: avaliacao_catalog-service
+          uri: lb://CATALOG-SERVICE
+          predicates:
+            - Path=/catalog/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: catalogService
+                fallbackUri: forward:/fallback/catalog
+
+
