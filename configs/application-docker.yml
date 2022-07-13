@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: eurekaserver
+    hostname: eureka-service
   client:
     registerWithEureka: true
     fetchRegistry: true
