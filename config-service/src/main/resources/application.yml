@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rodrigo-brasil/dh-microservice-avaliacao-2
+          uri: https://github.com/rodrigo-brasil/dh-microservice-avaliacao-2-docker
           searchPaths: configs
           skipSslValidation: true
           default-label: master
