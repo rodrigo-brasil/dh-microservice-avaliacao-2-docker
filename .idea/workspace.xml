@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73225a19-96fb-4371-a184-8d72977ee1e1" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1be715458596e7d31dae3c6096afc6ed57cb5628" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e97dcc88d396a4c2410ca1ed03689b87e49498b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/967184a0350b57c1d11b9d4baa1cc567e9658bee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0f321e0f90c28ad6ef5edcb2d368cddad9563f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb1ac98fa1a8f8a1f76cb51f3aa76c874e72eab6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/serie-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/serie-service-docker.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/_mdb_catalog.wt" afterDir="false" />
@@ -26,7 +16,7 @@
       <change beforePath="$PROJECT_DIR$/data/index-8--3761233902427353701.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-8--3761233902427353701.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index-9--3761233902427353701.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-9--3761233902427353701.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657740817130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1657742296054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657742296054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

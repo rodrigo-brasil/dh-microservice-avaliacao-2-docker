@@ -45,6 +45,7 @@ services:
 
   movie-service:
     build: movie-service
+    restart: always
     container_name: movie-service
     depends_on:
       - config-server
@@ -53,24 +54,27 @@ services:
 
   serie-service:
     build: serie-service
+    restart: always
     container_name: serie-service
     depends_on:
       - config-server
     ports:
-      - 8001:8001
+      - 8002:8002
 
   catalog-service:
     build: catalog-service
+    restart: always
     container_name: catalog-service
     depends_on:
       - config-server
       - movie-service
       - serie-service
     ports:
-      - 8002:8002
+      - 8003:8003
 
   api-gateway:
     build: api-gateway
+    restart: always
     container_name: api-gateway
     depends_on:
       - catalog-service
