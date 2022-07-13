@@ -2,21 +2,22 @@ server:
   port: 8003
   servlet:
     context-path: /catalog/
-    
+
 queue:
   movie:
-    name: movie-service 
+    name: movie-service
   serie:
-    name: serie-service 
-    
+    name: serie-service
+
 spring:
   data:
     mongodb:
-     authentication-database: admin
-     username: admin
-     password: pass
-     database: avaliacao2
-     
+      authentication-database: admin
+      username: admin
+      password: pass
+      database: avaliacao2
+      host: mongodb
+
 management:
   endpoints:
     web:

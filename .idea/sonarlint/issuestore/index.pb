@@ -81,13 +81,3 @@ C
 api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
 F
 api-gateway/Dockerfile,9\5\9548e2ce3bdfe112d8c757987e1beebc1ecab5ed
-J
-catalog-service/Dockerfile,c\0\c0f321e0f90c28ad6ef5edcb2d368cddad9563f8
-I
-config-service/Dockerfile,2\e\2e97dcc88d396a4c2410ca1ed03689b87e49498b
-I
-eureka-service/Dockerfile,1\b\1be715458596e7d31dae3c6096afc6ed57cb5628
-H
-movie-service/Dockerfile,e\b\eb1ac98fa1a8f8a1f76cb51f3aa76c874e72eab6
-H
-serie-service/Dockerfile,9\6\967184a0350b57c1d11b9d4baa1cc567e9658bee

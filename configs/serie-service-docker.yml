@@ -7,9 +7,11 @@ spring:
   data:
     mongodb:
       authentication-database: admin
+
       username: admin
       password: pass
       database: avaliacao2
+      host: mongodb
 
 queue:
   serie:

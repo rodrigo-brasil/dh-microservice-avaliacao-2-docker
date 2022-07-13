@@ -2,4 +2,4 @@ FROM openjdk:17-oracle
 ARG JAR_FILE=target/serieservice.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
-EXPOSE 8001
+EXPOSE 8002
