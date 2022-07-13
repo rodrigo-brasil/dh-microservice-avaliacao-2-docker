@@ -10,7 +10,7 @@ spring:
           lower-case-service-id: true
       routes:
         - id: avaliacao_movie-service
-          uri: lb://MOVIE-SERVICE
+          uri: lb://movie-service
           predicates:
             - Path=/movies/**
           filters:
@@ -19,7 +19,7 @@ spring:
                 name: moviesService
                 fallbackUri: forward:/fallback/movies
         - id: avaliacao_serie-service
-          uri: lb://SERIE-SERVICE
+          uri: lb://serie-service
           predicates:
             - Path=/series/**
           filters:
@@ -28,7 +28,7 @@ spring:
                 name: seriesService
                 fallbackUri: forward:/fallback/series
         - id: avaliacao_catalog-service
-          uri: lb://CATALOG-SERVICE
+          uri: lb://catalog-service
           predicates:
             - Path=/catalog/**
           filters:
