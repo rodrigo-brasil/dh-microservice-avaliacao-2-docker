@@ -5,8 +5,7 @@
 <h4 align="center">
   Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira e estudos.
 </h4>
-
-![Resultado final do projeto](assets/diagrama.png)
+![Resultado final do projeto](assets/diagrama.PNG)
 
 ## 📚 Contextualização
 
@@ -18,7 +17,7 @@ do cliente, ele pesquisa o banco de dados e responde.
 ---
 
 ## 💼 Tecnologias utilizadas
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+Para o desenvolvimento utilizei as seguintes tecnologias:
 
 - Java;
 - Spring Boot;
