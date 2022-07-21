@@ -6,7 +6,7 @@
   Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira e estudos.
 </h4>
 
-![Resultado final do projeto](assets/diagrama.png)
+![Resultado final do projeto](assets/diagrama.PNG)
 
 ## 📚 Contextualização
 
