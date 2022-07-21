@@ -24,8 +24,10 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Spring Boot;
 - Spring Cloud;
 - Eureka;
-- Zipkin
-- Resilence4J
-- Docker
+- RabbitMQ
+- Zipkin;
+- Resilence4J;
+- Docker;
+- MongoDB;
 
 ---
