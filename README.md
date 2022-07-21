@@ -2,9 +2,6 @@
   💻<br>Avaliação 2 Especialização em Back End I
 </h1>
 
-<h4 align="center">
-  Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira e estudos.
-</h4>
 ![Resultado final do projeto](assets/diagrama.PNG)
 
 ## 📚 Contextualização
